@@ -48,20 +48,4 @@ sections:
         description: "Generates API endpoints for Create, Read, Update and Delete a model along with the feature and unit tests."
         image: images/section/root-server.png
         color: white
-  - bgcolor: DarkSlateBlue
-    type: normal
-    description: ""
-    header:
-      title: Build your project with it
-      hlcolor: DarkKhaki
-      color: "#fff"
-      fontSize: 32
-      width: 450
-    body:
-      subtitle: Easy and customizable.
-      subtitlePosition: left
-      description: "Once you generate the code, you can customize the feature based on your need."
-      color: white
-      image: images/section/root-server.png
-      imagePosition: left
 ---
