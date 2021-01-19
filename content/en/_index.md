@@ -1,126 +1,66 @@
 ---
-title: Z Themes
-description: Hugo zzo, zdoc theme documentation home page
-date: 2020-01-26T04:15:05+09:00
+title: Laravel Simple CRUD Generator
+description:  A Laravel CRUD generator package complete with automated testing suite.
+date: 2021-01-19T19:41:00+08:00
 draft: false
 # updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
 landing:
   height: 500
   image: favicon/android-icon-192x192.png
   title:
-    - Z Themes
+    - Simple CRUD Generator
   text:
-    - This is Hugo Z Themes documentation site
+    - A Laravel CRUD generator package, complete with automated testing suite.
   titleColor:
   textColor:
   spaceBetweenTitleText: 25
   buttons:
     - link: docs
-      text: HUGO THEME ZDOC
+      text: Go to documentation
       color: primary
-  # backgroundImage: 
-  #   src: images/landscape.jpg
-  #   height: 600
-footer:
-  sections:
-    - title: General
-      links:
-        - title: Docs
-          link: https://gohugo.io/
-        - title: Learn
-          link: https://gohugo.io/
-        - title: Showcase
-          link: https://gohugo.io/
-        - title: Blog
-          link: https://gohugo.io/
-    - title: resources
-      links:
-        - title: GitHub
-          link: https://gohugo.io/
-        - title: Releases
-          link: https://gohugo.io/
-        - title: Spectrum
-          link: https://gohugo.io/
-        - title: Telemetry
-          link: https://gohugo.io/
-    - title: Features
-      links:
-        - title: GitHub
-          link: https://gohugo.io/
-        - title: Releases
-          link: https://gohugo.io/
-        - title: Spectrum
-          link: https://gohugo.io/
-        - title: Telemetry
-          link: https://gohugo.io/
-  contents: 
-    align: left
-    applySinglePageCss: false
-    markdown:
-      |
-      ## Zzo docs
-      Copyright © 2020. All rights reserved.
+    - link: https://github.com/nafiesl/SimpleCrudGenerator
+      text: Go to Github
+      color: default
 
 sections:
   - bgcolor: teal
     type: card
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+    description: "This package contains artisan make:crud commands to create a simple CRUD feature with test classes on our Laravel 5.5 (and later) application. This package is fairly simple, to boost test-driven development method on our laravel application."
     header: 
-      title: Why Zdoc
+      title: About this Package
       hlcolor: "#8bc34a"
       color: '#fff'
       fontSize: 32
-      width: 220
+      width: 370
     cards:
-      - subtitle: Performance
+      - subtitle: Generate Model CRUD
         subtitlePosition: center
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue."
+        description: "Generating Create, Read, Update and Delete scaffolds for a model with policy object class and Bootstrap 4 or 3 views."
         image: images/section/keyboard.png
         color: white
-        button: 
-          name: Naver
-          link: https://gohugo.io/
-          size: large
-          target: _blank
-          color: 'white'
-          bgcolor: '#283593'
-      - subtitle: Reliability
+      - subtitle: Generate Tests
         subtitlePosition: center
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+        description: "Generates feature test for CRUD operations, model and policy unit tests for the related CRUD feature of model."
         image: images/section/processor.png
         color: white
-        button: 
-          name: Google
-          link: https://gohugo.io/
-          size: large
-          target: _blank
-          color: 'white'
-          bgcolor: '#283593'
-      - subtitle: Productivity
+      - subtitle: Generate API Endpoints
         subtitlePosition: center
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+        description: "Generates API endpoints for Create, Read, Update and Delete a model along with the feature and unit tests."
         image: images/section/root-server.png
         color: white
-        button: 
-          name: Yahoo
-          link: https://gohugo.io/
-          size: large
-          target: _blank
-          color: 'white'
-          bgcolor: '#283593'
   - bgcolor: DarkSlateBlue
     type: normal
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+    description: ""
     header:
-      title: Build it with Zdoc
+      title: Build your project with it
       hlcolor: DarkKhaki
       color: "#fff"
       fontSize: 32
-      width: 340
+      width: 450
     body:
-      subtitle: Extensible and customizable.
+      subtitle: Easy and customizable.
       subtitlePosition: left
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+      description: "Once you generate the code, you can customize the feature based on your need."
       color: white
       image: images/section/root-server.png
       imagePosition: left

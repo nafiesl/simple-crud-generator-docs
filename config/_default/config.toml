@@ -1,12 +1,12 @@
-baseURL = "http://example.org"
-title = "Hugo Zdoc Theme"
+baseURL = "https://nafiesl.github.io/SimpleCrudGenerator"
+title = "Laravel Simple CRUD Generator Documentation"
 theme = "zdoc"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 hasCJKLanguage = false
 
-copyright = "&copy;{year}, All Rights Reserved"
+copyright = "Copyright &copy; 2017 Nafies Luthfi."
 timeout = 10000
 enableEmoji = true
 paginate = 13
