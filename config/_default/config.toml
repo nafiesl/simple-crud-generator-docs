@@ -6,7 +6,7 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 hasCJKLanguage = false
 
-copyright = "Copyright &copy; 2017 Nafies Luthfi."
+copyright = "Copyright &copy; 2021 Nafies Luthfi."
 timeout = 10000
 enableEmoji = true
 paginate = 13

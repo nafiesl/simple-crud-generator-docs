@@ -1,5 +1,5 @@
 ---
-title: "Simple CRUD Generator"
+title: "Documentation"
 description: "Laravel Simple CRUD Generator documentation page."
 date: 2021-01-30T21:00:00+08:00
 draft: false
