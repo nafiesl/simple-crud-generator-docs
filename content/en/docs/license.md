@@ -1,6 +1,6 @@
 ---
 title: "License"
-description: "Some screenshots of the generated CRUD feature."
+description: "The MIT License."
 date: 2021-01-30T21:00:00+08:00
 draft: false
 weight: 12
