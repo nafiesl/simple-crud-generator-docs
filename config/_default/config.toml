@@ -12,7 +12,11 @@ enableEmoji = true
 paginate = 13
 rssLimit = 100
 
-googleAnalytics = "G-VQ5YQERBBM"
+googleAnalytics = ""
+
+[params]
+  # Google Analytics 4
+  googleAnalyticsID = ""
 
 disableKinds = ["taxonomyTerm"]
 
