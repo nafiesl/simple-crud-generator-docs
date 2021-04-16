@@ -36,3 +36,8 @@ $ php artisan make:crud-simple ModelName --bs3
 ```bash
 $ php artisan make:crud-api ModelName
 ```
+
+## CRUD feature with UUID primary key
+```bash
+$ php artisan make:crud ModelName --uuid
+```
